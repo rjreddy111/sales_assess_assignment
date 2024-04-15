@@ -1,0 +1,101 @@
+/* Write your CSS here */
+body {
+  background-color: black;
+}
+
+.main-background {
+  background-color: black;
+  color: #f0f0f0;
+  padding: 25px;
+}
+.top-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page_heading {
+  font-family: Comme;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28.34px;
+  letter-spacing: 0.55em;
+  text-align: left;
+  width: 30%;
+}
+
+.top-unordered-list {
+  list-style-type: none;
+  display: flex;
+  width: 45%;
+  justify-content: space-between;
+}
+.each-image {
+  margin-right: 10px;
+}
+
+.inital-list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.products-unordered-list {
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.unordered-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0px;
+}
+.unordered-list-one {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  padding: 0px;
+}
+.each-option {
+  display: flex;
+  flex-direction: column;
+}
+
+.backpack-product-contaienr {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.backpakce-container {
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.products-containre {
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vector-image {
+  width: 16.67px;
+  height: 20px;
+  top: 299px;
+  left: 1230px;
+  gap: 0px;
+  border: 2px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.elipse {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+}

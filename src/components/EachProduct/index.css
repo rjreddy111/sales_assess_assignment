@@ -1,0 +1,57 @@
+/* Write your CSS here */
+.each-product-card {
+  width: 280.15px;
+  height: 483.43px;
+  gap: 0px;
+  opacity: 0px;
+
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+.product-prices-container {
+  display: flex;
+  justify-content: space-between;
+}
+.product-price {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+.main-price {
+  font-family: Encode Sans;
+  font-size: 18.79px;
+  font-weight: 700;
+  line-height: 23.49px;
+  text-align: right;
+}
+
+.mrp-price {
+  font-size: 12px;
+  font-family: Encode Sans;
+  font-size: 11.96px;
+  font-weight: 400;
+  line-height: 14.95px;
+  text-align: right;
+  align-self: flex-end;
+}
+.discount {
+  color: #2fc14f;
+}
+
+.product-image {
+  width: 280.15px;
+  height: 373.26px;
+  gap: 0px;
+  border-radius: 6.59px 6.59px 0px 0px;
+  opacity: 0px;
+  position: relative;
+  z-index: 1;
+}
+
+.save-bag-icon {
+  position: absolute;
+  z-index: 2;
+
+  color: black;
+  left: 270px;
+}
